@@ -10,9 +10,10 @@ function VideoCardGroup({
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
   const videos = category.videos;
+  
   return (
     <VideoCardGroupContainer>
-      {categoryTitle && (
+      {categoryTitle  &&(
         <>
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
